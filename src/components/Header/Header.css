@@ -1,0 +1,117 @@
+.header {
+  background-color: #ffffff !important;
+}
+img {
+  width: 140px;
+}
+.form-control,
+.btn {
+  border: 2px solid #ff9d00 !important;
+}
+.search .btn {
+  padding: 0 32px !important;
+}
+.search .btn,
+.menubar-dropdown {
+  background-color: #ff9d00 !important;
+}
+.menubar-dropdown {
+  padding: 0 50px !important;
+}
+.menubar-dropdown .dropdown-toggle,
+.menu-items .nav-link,
+.modal-title {
+  font-weight: 600 !important;
+}
+.menubar-dropdown .dropdown-item {
+  color: #111111 !important;
+}
+.search .btn,
+.menu-bar a {
+  color: #fff !important;
+}
+.dropdown .btn {
+  line-height: 0;
+  padding: 0 !important;
+  padding-left: 30px !important;
+  border: none !important;
+  background-color: transparent !important;
+}
+.dropdown-menu {
+  top: 10px !important;
+  border: none !important;
+}
+.btn-shadow {
+  color: #000000 !important;
+  display: flex;
+  align-items: center;
+}
+.btn-shadow span {
+  padding: 0.5rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+.dropdown-menu,
+.btn-shadow span {
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+.btn-shadow span svg {
+  display: block;
+  vertical-align: middle;
+}
+.menu-bar,
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: #131921 !important;
+}
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff !important;
+  text-decoration: none;
+}
+.modal {
+  padding-right: 0 !important;
+}
+.modal-header,
+.modal-footer {
+  border-color: #dee2e6 !important;
+}
+.modal-dialog {
+  margin: 0 0 0 auto !important;
+}
+.modal.fade.modal-right .modal-dialog {
+  transform: translate(125%, 0px);
+}
+.modal.show.modal-right .modal-dialog {
+  transform: none;
+}
+.modal-title {
+  font-size: 18px !important;
+}
+.btn-close {
+  background: transparent
+    url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e")
+    center/.75em auto no-repeat !important;
+  opacity: 1 !important;
+}
+.modal-dialog .modal-content {
+  border: none !important;
+  border-radius: 0 !important;
+  height: 100vh !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+@media screen and (max-width: 1200px) {
+  .dropdown .btn {
+    padding: 15px !important;
+  }
+  .dropdown-menu {
+    top: 0px !important;
+  }
+  .menubar-dropdown {
+    padding: 0 10px !important;
+  }
+  .menu-bar a {
+    font-size: 15px !important;
+  }
+}

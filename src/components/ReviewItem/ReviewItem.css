@@ -1,0 +1,86 @@
+.single-cart {
+  border-bottom: 1px solid #dee2e6 !important;
+}
+
+.single-cart:nth-last-child(1) {
+  border-bottom: none !important;
+}
+
+.single-cart img {
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  border: 1px solid #e5e7eb;
+  margin-right: 10px !important;
+}
+
+.item-content {
+  flex-grow: 1 !important;
+}
+
+.item-title {
+  flex-direction: row !important;
+  flex-grow: 1 !important;
+}
+
+.single-cart .item-name,
+.single-cart .item-price {
+  color: #131921 !important;
+  font-weight: 600 !important;
+  line-height: 20px !important;
+}
+
+.single-cart .item-name {
+  font-size: 15px !important;
+  margin-right: 21px !important;
+}
+
+.single-cart .item-price {
+  font-size: 18px !important;
+}
+
+.item-quantity button {
+  background-color: transparent !important;
+  background-image: none !important;
+  padding-left: 0.75rem !important;
+  padding-right: 0.75rem !important;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  font-size: 14px !important;
+  font-weight: bold !important;
+  color: #000000 !important;
+  border: none !important;
+}
+
+.item-quantity {
+  border-radius: 0.5rem !important;
+}
+
+.item-quantity .quantity {
+  border-left: 1px solid #dee2e6 !important;
+  border-right: 1px solid #dee2e6 !important;
+}
+
+.item-quantity .quantity {
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
+  font-weight: bold !important;
+  color: #000000 !important;
+  padding: 8px 20px !important;
+}
+
+.remove-btn {
+  color: #e68e01 !important;
+  background-color: transparent !important;
+  background-image: none !important;
+  border: none !important;
+  font-weight: 600 !important;
+  padding: 0!important;
+  margin: 0!important;
+}
+
+/* 
+7 hr 32 min (275 km) 
+7 hr (251 km)
+*/

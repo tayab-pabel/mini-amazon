@@ -1,0 +1,28 @@
+.card {
+  box-shadow: rgb(0 0 0 / 5%) 0px 2px 5px 0px;
+  border: none !important;
+}
+
+.text-2xl {
+  font-size: 1.5rem !important;
+  margin-right: 5px !important;
+}
+
+.card-title {
+  font-size: 15px !important;
+}
+
+.product-stock {
+  color: #848e9b !important;
+  font-size: 13px !important;
+}
+
+.product-price {
+  font-size: 20px !important;
+  
+}
+
+.card-title a,
+.product-price {
+  color: #131921 !important;
+}
